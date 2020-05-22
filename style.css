@@ -151,7 +151,17 @@ header {
 }
 
 @media screen and (min-width: 1024px) {
-  body {
-    border: solid 5px #ff8a80;
+  .content__reponsive_wrap {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .content__reponsive_wrap_left {
+    width: 50%;
+    padding-right: 0.5rem;
+  }
+  .content__next {
+    width: 50%;
+    padding-left: 0.5rem;
   }
 }
